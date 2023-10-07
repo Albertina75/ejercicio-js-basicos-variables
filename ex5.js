@@ -8,11 +8,12 @@
  * 
  */
 
+ let birthYear = 1975;
  let futureYear = 2050;
- let birthYear;
+ let currentYear = new Date().getFullYear();
+ let age = futureYear - birthYear;
 
- let message;
-
+ let message = `En el año ${futureYear} yo voy a tener ${age} o ${age + 1} años.`;
  console.log(message);
  
 

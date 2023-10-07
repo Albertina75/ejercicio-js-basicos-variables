@@ -17,6 +17,14 @@
  */
 
 let numeroGatos = 10;
+let pareja = "Fabio";
+let pais = "Roma";
+let trabajo = "front-end";
+
+let adivino = `Tú estarás en ${pais} trabajando de ${trabajo} y tu pareja será ${pareja} y ${numeroGatos} gatos`;
+
+console.log(adivino);
+
 
 let futuro = "tendréis " + numeroGatos + " gatos";
 console.log(futuro);
